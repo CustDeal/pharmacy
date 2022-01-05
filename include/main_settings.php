@@ -1,6 +1,6 @@
 <?php
 /*================================================================================
-	Item Name: Data Solutions
+	Item Name: SuuQa
 	Version: 1.0
 	Author: CustDeal EServices Private Limited
 	Author URL: https://www.custdeal.com
@@ -24,19 +24,19 @@ $site_api= "";
 
 $site_logo_dark = $site_url."assets/img/logo-2.png";
 $site_logo_light = $site_url."assets/img/logo-white.png";
-$site_favicon = $site_url."assets/img/favicon.ico";
+$site_favicon = $site_url."assets/img/logo-white.png";
 
 
 $site_author ="CustDeal Team ";
-$site_short =" Data Solutions ";
-$site_name =" Data Solutions ";
+$site_short =" SuuQa ";
+$site_name =" SuuQa ";
 /*********************Main URL Of Website*****************************/
 
 
 /***********************SEO Tags Started************************/
 
 //Page
-$site_title = 	"CustDeal | Data Solutions";
+$site_title = 	"SuuQa";
 $site_description = "";
 $site_keyword = "";
 
@@ -44,9 +44,9 @@ $site_keyword = "";
 
 
 /********************Contact Information Started**********************/
-$contact_name 		= "CustDeal ESetvices Private Limited";
+$contact_name 		= "SuuQa";
 $contact_email 		= "support@custdeal.com";
-$contact_phone 		= "+91-94788-44116";
+$contact_phone 		= "02080904644";
 $contact_address	= "CustDeal EServices Private Limited, Plot No. E203, Mohali, Punjab, 160055";
 $contact_map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.309678832831!2d76.68672791513087!3d30.709693381645213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef08e136445d%3A0x3242e01adc4917b9!2sCustDeal%20EServices%20Private%20Limited!5e0!3m2!1sen!2sin!4v1608826324456!5m2!1sen!2sin";
 /********************Contact Information Ended************************/

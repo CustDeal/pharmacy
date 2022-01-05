@@ -12,68 +12,178 @@
 
 <?php include($red_page."common/header.php");?>
 
-    <!-- About -->
-    <section class="iq-breadcrumb text-left green-bg">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-            <h2 class="mt-3 font-weight-bold">About Us</h2>
-            <p class="mt-3 text-justify">We offers a wide amount of QuickBooks data services for the day-to-day business accounting process. The comprehensive range of the services includes QuickBooks data conversion, file repair, data recovery, migration, file size reduction, and various others. Our qualified QuickBooks experts handle all data errors and issues with the highest proficiency to ensure the best customer experience with the offered services. We embrace industry-standard tools to render our data services flawlessly. Our experienced in-house tech-geeks provide data services for all International versions of the QuickBooks, including, Canada, US, UK, and Australia.</p>
-            <nav aria-label="breadcrumb" class="mt-3">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="<?php $site_url; ?>"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">About Us</li>
-              </ol>
-            </nav>
-          </div>
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInRight">
-            <img src="<?php echo $site_url; ?>assets/images/about/10.png" class="img-fluid" alt="">
-          </div>
+    <!--====== Page Title Start ======-->
+    <section class="page-title-area page-title-bg" style="background-image: url(<?php echo $site_url; ?>assets/img/section-bg/page-title.jpg);">
+        <div class="container">
+            <h1 class="page-title">About</h1>
+
+            <ul class="breadcrumb-nav">
+                <li><a href="<?php echo $site_url; ?>">Home</a></li>
+                <li><i class="fas fa-angle-right"></i></li>
+                <li>About</li>
+            </ul>
         </div>
-      </div>
     </section>
-    <!-- About End -->
-    <!-- About -->
-    <section >
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 wow fadeInLeft">
-            <img src="<?php echo $site_url; ?>assets/images/about/09.png" class="img-fluid pr-5" data-jarallax='{"speed": 0.6}" ' alt="img">
-          </div>
-          <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 text-left align-self-center">
-            <div class="iq_wrapper_column">
-              <div class="iq_wrapper_header">
-              <h2>Services We Offer</h2>
-            </div>
-            <div class="iq_wrapper_content">
-              <p>Our services are highly praised for their professional and timely executions. You can avail our best in class data services at the most competitive rates.</p>
+    <!--====== Page Title End ======-->
 
-            </div>
-            <div class="row iq_wrapper_list">
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" >
-                <ul class="iq-list wow fadeInUp" data-wow-duration="0.9s" style="visibility: visible; animation-duration: 0.9s; animation-name: fadeInUp;">
-                  <li><i class="fa fa-check"></i><span>Free QuickBooks upgrades</span></li>
-                  <li><i class="fa fa-check"></i><span>Free data migration</span></li>
-                  <li><i class="fa fa-check"></i><span>Free data conversion</span></li>
-                  <li><i class="fa fa-check"></i><span>QuickBooks Data Repair</span></li>
-                </ul>
-              </div>
-              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12"> 
-                <ul class="iq-list wow fadeInUp" data-wow-duration="0.9s" style="visibility: visible; animation-duration: 0.9s; animation-name: fadeInUp;">
-                  <li><i class="fa fa-check"></i><span>Daily Online data Backup</span></li>
-                  <li><i class="fa fa-check"></i><span>Free  Independent Services</span></li>
-                  <li><i class="fa fa-check"></i><span>Dedicated Technical Support</span></li>
-                  <li><i class="fa fa-check"></i><span>QuickBooks Data Repair</span></li>
+    <!--====== About Section Start ======-->
+    <section class="about-section section-gap">
+        <div class="container">
+            <div class="row justify-content-lg-between justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="circle-image-gallery mb-md-50">
+                        <div class="row">
+                            <div class="col-6 gallery-left">
+                                <div class="single-img wow fadeInLeft" data-wow-delay="0.3s">
+                                    <img src="<?php echo $site_url; ?>assets/img/circle-image-gallery/01.jpg" alt="">
+                                </div>
+                                <div class="single-img wow fadeInRight" data-wow-delay="0.4s">
+                                    <img src="<?php echo $site_url; ?>assets/img/circle-image-gallery/04.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6 gallery-right">
+                                <div class="single-img wow fadeInRight" data-wow-delay="0.5s">
+                                    <img class="animate-float-bob-y"  src="<?php echo $site_url; ?>assets/img/circle-image-gallery/03.jpg" alt="">
+                                </div>
+                                <div class="single-img wow fadeInLeft" data-wow-delay="0.6s">
+                                    <img src="<?php echo $site_url; ?>assets/img/circle-image-gallery/02.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 col-md-8">
+                    <div class="about-text">
+                        <div class="section-heading mb-35">
+                            <span class="tagline">About <?php echo $site_name; ?></span>
+                            <h2 class="title">All-in-One Worksite Health Solution</h2>
 
-                </ul>
-              </div>
-            </div>
-            </div>
+                            <p>5 Years Of Experience in Medical Services</p>
+                        </div>
+                        <p>
+                            We helps organizations operate at full capacity by coordinating workplace physical and mental health services while helping employers stay compliant, mitigate risks and improve the health, safety and well-being of yours.
+                        </p>
+                        <!--a href="about.html" class="template-btn mt-40">Learn More <i class="far fa-plus"></i></a-->
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
     </section>
-    <!-- About End -->
+    <!--====== About Section End ======-->
+
+    <div class="wcu-with-doctors">
+        <!--====== Why Choose Section Start ======-->
+        <section class="wcu-section section-gap-top">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="section-heading heading-white text-center mb-40">
+                            <span class="tagline">Why Choose Our Medical Services</span>
+                            <h2 class="title">Breakthrough in Comprehensive, Flexible Care Delivery Models</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-9">
+                        <div class="image-title-box mt-30 wow fadeInUp" data-wow-delay="0.3s">
+                            <h4 class="title"><a href="<?php echo $site_url; ?>service">Optimize Your Health  Care Services</a></h4>
+
+                            <div class="image">
+                                <img src="<?php echo $site_url; ?>assets/img/img-title-box/01.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-9">
+                        <div class="image-title-box mt-30 wow fadeInUp" data-wow-delay="0.4s">
+                            <h4 class="title"><a href="<?php echo $site_url; ?>service">Boost Employee Engagement</a></h4>
+
+                            <div class="image">
+                                <img src="<?php echo $site_url; ?>assets/img/img-title-box/02.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-9">
+                        <div class="image-title-box mt-30 wow fadeInUp" data-wow-delay="0.5s">
+                            <h4 class="title"><a href="<?php echo $site_url; ?>service">Accelerate Your Return On Investment</a></h4>
+
+                            <div class="image">
+                                <img src="<?php echo $site_url; ?>assets/img/img-title-box/03.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== Why Choose Section End ======-->
+    </div>
+
+    <!--====== FAQ Section Start ======-->
+    <section class="faq-section section-gap">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="faq-image text-center text-lg-left mb-md-50">
+                        <img src="<?php echo $site_url; ?>assets/img/section-img/faq-image.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-9 col-sm-11">
+                    <div class="faq-content pl-xl-5">
+                        <div class="section-heading mb-30">
+                            <span class="tagline">How Can We help</span>
+                            <h2 class="title">Flexible & Responsive to Changing Needs</h2>
+                        </div>
+                        <p>
+                            Optimize health services for you with an all-in-one approach to healthcare that brings together primary, preventive, urgent, and occupational care
+                        </p>
+                        <div class="accordion accordion-style-two mt-30" id="accordionFaq">
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <h6 data-toggle="collapse" aria-expanded="true" data-target="#itemOne">
+                                        <span>Advanced Equipment</span>
+                                    </h6>
+                                </div>
+                                <div class="collapse" id="itemOne" data-parent="#accordionFaq">
+                                    <div class="accordion-content">
+                                        <p>
+                                            To improve engagement to drive increased your satisfaction and better health outcomes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item active-accordion">
+                                <div class="accordion-header">
+                                    <h6 data-toggle="collapse" aria-expanded="true" data-target="#itemTwo">
+                                        <span>Accelerate return on investment </span>
+                                    </h6>
+                                </div>
+                                <div class="collapse show" id="itemTwo" data-parent="#accordionFaq">
+                                    <div class="accordion-content">
+                                        <p>
+                                            Accelerate return on investment with Mobile Health Clinics providing rapid support at a fraction of the cost of brick-and-mortar clinics
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    <h6 data-toggle="collapse" aria-expanded="true" data-target="#itemThree">
+                                        <span>On-site care </span>
+                                    </h6>
+                                </div>
+                                <div class="collapse" id="itemThree" data-parent="#accordionFaq">
+                                    <div class="accordion-content">
+                                        <p>
+                                            Tailor clinical solutions to meet their needs with flexible mobile, virtual, and on-site care options
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== FAQ Section End ======-->
 
 <?php include($red_page."common/footer.php");?>

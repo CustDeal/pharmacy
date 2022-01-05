@@ -21,7 +21,7 @@
                     <div class="slider-content-box" data-animation="fadeInUp" data-delay="0.4s">
                         <h1 class="title" data-animation="fadeInDown" data-delay="0.7s">We Care Medical &  Health </h1>
                         <p data-animation="fadeInLeft" data-delay="0.8s">It is our mission to exceed expectations by providing exceptional medical care to our patients and at the same time, building relationships of trust with them.</p>
-                        <a href="#" class="template-btn" data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="fas fa-plus"></i></a>
+                        <a href="#appointment" class="template-btn" data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="fas fa-plus"></i></a>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                     <div class="slider-content-box" data-animation="fadeInUp" data-delay="0.4s">
                         <h1 class="title" data-animation="fadeInDown" data-delay="0.7s">We Care Medical &  Health </h1>
                         <p data-animation="fadeInLeft" data-delay="0.8s">It is our mission to exceed expectations by providing exceptional medical care to our patients and at the same time, building relationships of trust with them.</p>
-                        <a href="#" class="template-btn" data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="fas fa-plus"></i></a>
+                        <<a href="#appointment" class="template-btn"  data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="fas fa-plus"></i></a>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                     <div class="slider-content-box" data-animation="fadeInUp" data-delay="0.4s">
                         <h1 class="title" data-animation="fadeInDown" data-delay="0.7s">We Care Medical &  Health </h1>
                         <p data-animation="fadeInLeft" data-delay="0.8s">It is our mission to exceed expectations by providing exceptional medical care to our patients and at the same time, building relationships of trust with them.</p>
-                        <a href="#" class="template-btn" data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="fas fa-plus"></i></a>
+                        <<a href="#appointment" class="template-btn"  data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="fas fa-plus"></i></a>
                     </div>
                 </div>
             </div>
@@ -110,13 +110,13 @@
                 <div class="col-lg-5">
                     <div class="section-heading heading-white">
                         <span class="tagline">Get Free Consultations</span>
-                        <h2 class="title">Looking a Doctors to Get  Your Services</h2>
+                        <h2 class="title">Looking a Doctors or Medicines to Get </h2>
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <ul class="cta-buttons d-sm-flex justify-content-lg-end mt-md-40 flex-wrap">
-                        <li class="mb-3 mb-sm-0"><a href="#" class="template-btn template-btn-white wow fadeInRight" data-wow-delay="0.4s">Get Free Quote <i class="fas fa-plus"></i></a></li>
-                        <li class="ml-sm-2"><a href="#appointment" class="template-btn template-btn-bordered wow fadeInRight" data-wow-delay="0.5s">Get appointment <i class="fas fa-plus"></i></a></li>
+                        <li class="mb-3 mb-sm-0"><a href="<?php echo $site_url; ?>contact/#compose" class="template-btn template-btn-white wow fadeInRight" data-wow-delay="0.4s">Free Quote <i class="fas fa-plus"></i></a></li>
+                        <li class="ml-sm-2"><a href="#appointment" class="template-btn template-btn-bordered wow fadeInRight" data-wow-delay="0.5s">Appointment <i class="fas fa-plus"></i></a></li>
                     </ul>
                 </div>
             </div>

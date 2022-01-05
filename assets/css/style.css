@@ -633,7 +633,7 @@ select:focus,
 	content: "\f107";
 	font-size: 15px;
 	font-weight: 400;
-	font-family: "Font Awesome 5 Pro";
+	font-family: "Font Awesome 5 Free";
 	line-height: 1;
 	border: none;
 	position: relative;
@@ -5059,7 +5059,7 @@ button {
 
 .check-list li::before {
 	content: "\f00c";
-	font-family: "Font Awesome 5 Pro";
+	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
 	font-size: 12px;
 	position: absolute;
@@ -5104,7 +5104,7 @@ button {
 
 .check-list-two li::before {
 	content: "\f00c";
-	font-family: "Font Awesome 5 Pro";
+	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
 	font-size: 15px;
 	position: absolute;
@@ -6741,7 +6741,7 @@ button {
 	content: "\f067";
 	font-size: 18px;
 	font-weight: 300;
-	font-family: "Font Awesome 5 Pro";
+	font-family: "Font Awesome 5 Free";
 	position: absolute;
 	right: 30px;
 	top: 50%;
@@ -9019,7 +9019,7 @@ button {
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	content: "\f105";
-	font-family: "Font Awesome 5 Pro";
+	font-family: "Font Awesome 5 Free";
 	font-weight: 400;
 	font-size: 15px;
 }
