@@ -326,7 +326,7 @@
 
 
     <!--====== Appointment Section Start ======-->
-    <section class="appointment-section" id="appointment">
+    <section class="appointment-section section-gap" id="appointment">
         <div class="container container-1500">
             <div class="appointment-form-two style-two">
                 <div class="appointment-image" style="background-image: url(<?php echo $site_url; ?>assets/img/appointment/03.jpg);">

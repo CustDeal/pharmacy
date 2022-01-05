@@ -94,9 +94,9 @@
                     <nav class="site-menu menu-gap-left d-none d-xl-block">
                         <ul class="primary-menu">
                             <li class="active"><a href="<?php echo $site_url; ?>">Home</a></li>
-                            <li><a href="<?php echo $site_url; ?>about.html">About</a></li>
-                            <li><a href="<?php echo $site_url; ?>service.html">Services</a></li>
-                            <li><a href="<?php echo $site_url; ?>contact.html">Contact</a></li>
+                            <li><a href="<?php echo $site_url; ?>about-us">About</a></li>
+                            <li><a href="<?php echo $site_url; ?>service">Services</a></li>
+                            <li><a href="<?php echo $site_url; ?>contact">Contact</a></li>
                             <li><a href="<?php echo $site_url; ?>#appointment" class="btn btn-primary text-white">Book Appointment</a></li>
                        </ul>
                     </nav>
@@ -177,9 +177,9 @@
                 <nav class="mobile-menu">
                     <ul class="primary-menu">
                         <li class="active"><a href="<?php echo $site_url; ?>">Home</a></li>
-                        <li><a href="<?php echo $site_url; ?>about.html">About</a></li>
-                        <li><a href="<?php echo $site_url; ?>service.html">Service One</a></li>
-                        <li><a href="<?php echo $site_url; ?>contact.html">Contact</a></li>
+                        <li><a href="<?php echo $site_url; ?>about-us">About</a></li>
+                        <li><a href="<?php echo $site_url; ?>service">Service One</a></li>
+                        <li><a href="<?php echo $site_url; ?>contact">Contact</a></li>
                         <li><a href="<?php echo $site_url; ?>#appointment" class="btn btn-primary text-white" >Book Appointment</a></li>
 						<li><div id="google_translate_element"></div>
 								<script type="text/javascript">

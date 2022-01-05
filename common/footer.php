@@ -15,7 +15,31 @@
     <!--====== Back to Top End ======-->
 
     <!--====== Start Template Footer ======-->
-    <footer class="template-footer template-footer-white">
+    <footer class="template-footer template-footer-white have-cta-boxes-two">
+        <div class="cta-boxes-wrapper">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cta-boxed-two bg-color-secondary bg-size-cover blend-mode-multiply mb-30" style="background-image: url(<?php echo $site_url; ?>assets/img/cta-img/cta-boxed-2-1.jpg);">
+                            <h2 class="cta-title">Looking Medicines for Treatment</h2>
+                            <a href="<?php echo $site_url; ?>contact" class="template-btn template-btn-bordered">Contact Us <i class="far fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="cta-boxed-two bg-color-secondary bg-size-cover blend-mode-multiply mb-30" style="background-image: url(<?php echo $site_url; ?>assets/img/cta-img/cta-boxed-2-2.jpg);">
+                            <h2 class="cta-title">Make Appointment  Online (24/7)</h2>
+                            <a href="<?php echo $site_url; ?>#appointment" class="template-btn template-btn-bordered">Appointment <i class="far fa-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-8">
+                        <div class="cta-boxed-two bg-color-secondary bg-size-cover blend-mode-multiply mb-30" style="background-image: url(<?php echo $site_url; ?>assets/img/cta-img/cta-boxed-2-3.jpg);">
+                            <h2 class="cta-title">Looking a Doctors for Consultation</h2>
+                            <a href="<?php echo $site_url; ?>contact/#compose" class="template-btn template-btn-bordered">Send us Message <i class="far fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="footer-inner bg-color-primary">
             <div class="container">
                 <div class="footer-widgets">

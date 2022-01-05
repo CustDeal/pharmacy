@@ -16,7 +16,7 @@ $system_login = $site_url."";
 $site_api= "";
 }
 else{
-$site_url ="https://www.custdeal.com/project_2022/pharmacy/";
+$site_url ="https://www.custdeal.com/projects_2022/pharmacy/";
 $admin_url = $site_url."";
 $system_login = $site_url."";
 $site_api= "";
