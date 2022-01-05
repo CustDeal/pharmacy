@@ -12,113 +12,160 @@
 
 <?php include($red_page."common/header.php");?>
 
-      <!-- About -->
-      <section class="iq-breadcrumb text-left grey-bg">
-         <div class="container">
-            <div class="row">
-               
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-left">
-                  <h2 class="mt-3 font-weight-bold">Contact Us</h2>
-                  <p class="mt-3">Comprehensive Accounting and Bookkeeping Services to Keep your Accounting Data Intact</p>
-                  <nav aria-label="breadcrumb" class="mt-3">
-                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="<?php echo $site_url; ?>"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
-                     </ol>
-                  </nav>
-               </div>
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                  <img src="<?php echo $site_url; ?>assets/images/services/07.png" class="img-fluid iq-pr-50" alt="">
-               </div>
-            </div>
-         </div>
-      </section>
-      <!--=================================
-      Main Content -->
-      <div class="main-content" id="message">
-         <section class="iq-contactbox">
-            <div class="container">
-               <div class="row justify-content-between">
-                  <div class="col-lg-6 align-self-center">
-                     <div class="contact-box">
-                        <h3>Get in Touch</h3>
-                        <p>Contact Our Data Services Experts for Immediate Help</p>
-                        <form class="p-0"  method="post" action="<?php echo $red_page; ?>core/system_contact.php">
-                           <div class="contact-form mt-4">
-	<div class="row">
-	<div class="col-md-12">
-	<?php 
-	if(isset($_SESSION['contact'])){if(isset($_SESSION['contact']['success'])){ echo "<label class='alert alert-success' >".$_SESSION['contact']['success']."</label>";}}
-	if(isset($_SESSION['contact'])){if(isset($_SESSION['contact']['error'])){ echo "<label class='alert alert-danger'>".$_SESSION['contact']['error']."</label>";}}
-	?>
-	</div>
-	</div>
-                              <div class="row">
-                                 <div class="col-lg-6 col-sm-12 mb-3">
-                                    <div class="form-group">
-                                       <label class="mb-2">Name</label>
-                                       <input type="text" name="txt_name"  class="form-control" id="txt_name" required placeholder="Your Name">
-                                    </div>
-                                 </div>
-                                 <div class="col-lg-6 col-sm-12 mb-3">
-                                    <div class="form-group">
-                                       <label class="mb-2">Email</label>
-                                       <input type="email" name="txt_email" class="form-control" id="txt_email" required placeholder="Your Email">
-                                    </div>
-                                 </div>
-                                 <div class="col-lg-12 col-sm-12 mb-3">
-                                    <div class="form-group">
-                                       <label class="mb-2">Mobile No.</label>
-                                       <input type="number" min="1234567890" minlength="7"  name="txt_mobile" class="form-control" id="txt_mobile" placeholder="Your Phone Number">
-                                    </div>
-                                 </div>
-                                 <div class="col-lg-12 col-sm-12 mb-3">
-                                    <div class="form-group section-field textarea wow fadeInUp" data-wow-duration="2.5s">
-                                       <label class="mb-2">Message</label>
-                                       <textarea class="input-message w-100" name="txt_message"  id="txt_message" placeholder="Type Your Message Here" rows="5"></textarea>
-                                    </div>
-                                    <!--div class="section-field iq-mt-20">
-                                     <div class="g-recaptcha" data-sitekey="6LdA3mYUAAAAANpUuZTLbKM_s23tTHlcdJ7dYfgI"></div>
-                                    </div-->
-                                    <button id="btn_send" name="btn_send" type="submit" class="button pull-right">Send Message</button>
-                                 </div> 
-                              </div>
-                           </div>
-                        </form>
-                     </div>
-                  </div>
-                  <div class="col-lg-5">
-                     <div class="contact-bg">
-                        <h2>Contact Info</h2>
-                        <div class="row">
-                           <div class="col-sm-12">
-                              
-                              <ul class="iq-contact text-white">
-                                 <li>
-                                    <i class="fas fa-phone"></i>
-                                    <p><a href="tel:<?php echo $contact_phone; ?>" class="text-white"><?php echo $contact_phone; ?></a></p>
-                                 </li>
-                                 <li>
-                                    <i class="fas fa-envelope"></i>
-                                    <p><a href="mailto:<?php echo $contact_email; ?>" class="text-white" ><?php echo $contact_email; ?></a></p>
-                                 </li>
-                                 <li>
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <p><?php echo $contact_address; ?></p>
-                                 </li>
-                              </ul>
-                           </div>
-                           <div class="col-sm-12">
-                              <iframe class="w-100" src="<?php echo $contact_map; ?>" style="border:0" allowfullscreen></iframe>
-                           </div>
+    <!--====== Page Title Start ======-->
+    <section class="page-title-area page-title-bg" style="background-image: url(assets/img/section-bg/page-title.jpg);">
+        <div class="container">
+            <h1 class="page-title">Contact Us</h1>
+
+            <ul class="breadcrumb-nav">
+                <li><a href="#">Home</a></li>
+                <li><i class="fas fa-angle-right"></i></li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </section>
+    <!--====== Page Title End ======-->
+
+    <!--====== Contact Info Section Start ======-->
+    <section class="section-gap contact-top-wrappper">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-6 col-md-10">
+                    <div class="contact-info-wrapper">
+                        <div class="single-contact-info">
+                            <div class="single-contact-info">
+                                <h3 class="info-title">
+                                    <i class="fas fa-map-marker-alt"></i> Address
+                                </h3>
+                                <p>
+                                    <?php echo $contact_address; ?>
+                                </p>
+                            </div>
+                            <div class="single-contact-info">
+                                <h3 class="info-title">
+                                    <i class="fas fa-coffee"></i> Get In Touch
+                                </h3>
+                                <ul>
+                                    <li>
+                                        <span>Phone Number</span><a href="tel:<?php echo $contact_phone; ?>"><?php echo $contact_phone; ?></a>
+                                    </li>
+                                    <li>
+                                        <span>Email Address</span><a href="mailto:<?php echo $contact_email; ?>"><?php echo $contact_email; ?></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="single-contact-info">
+                                <h3 class="info-title">
+                                    <i class="fas fa-comments"></i> Follow Us
+                                </h3>
+                                <p class="social-icon">
+                                    <a href="<?php echo $social_fb; ?>"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="<?php echo $social_twitter; ?>"><i class="fab fa-twitter"></i></a>
+                                    <a href="<?php echo $social_youtube; ?>"><i class="fab fa-youtube"></i></a>
+                                    <a href="<?php echo $social_instagram; ?>"><i class="fab fa-instagram"></i></a>
+                                </p>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 col-md-10">
+                    <div class="working-hour-chart">
+                        <h2 class="chart-title">Working Hour</h2>
+                        <ul>
+                            <li>
+                                <span><i class="fas fa-angle-right"></i>Monday</span>
+                                <span>9:00-19:00</span>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-angle-right"></i>Tuesday</span>
+                                <span>9:00-19:00</span>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-angle-right"></i>Wednesday</span>
+                                <span>9:00-19:00</span>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-angle-right"></i>Thursday</span>
+                                <span>9:00-19:00</span>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-angle-right"></i>Friday</span>
+                                <span>9:00-19:00</span>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-angle-right"></i>Saturday</span>
+                                <span>9:00-19:00</span>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-angle-right"></i>Sunday</span>
+                                <span>9:00-19:00</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-         </section>
-      </div>
-      <!--=================================
-      Main Content -->
+        </div>
+    </section>
+    <!--====== Contact Info Section End ======-->
+
+    <!--====== Contact Form Start ======-->
+    <section class="contact-form-area">
+        <div class="contact-map">
+            <iframe src="<?php echo $contact_map; ?>" loading="lazy"></iframe>
+        </div>
+
+        <div class="section-gap" id="compose">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="section-heading mb-60 text-center">
+                            <span class="tagline">We're Ready To Help You</span>
+                            <h2 class="title">Leave a Message</h2>
+                        </div>
+                        <form action="#" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <label for="name">Your Full Name</label>
+                                        <input type="text" placeholder="Michael M. Smith" id="name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" placeholder="support@gmail.com" id="email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <label for="number">Phone Number</label>
+                                        <input type="text" placeholder="+012 (345) 678 99" id="number">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-field">
+                                        <label for="website">Subject</label>
+                                        <input type="text" placeholder="Subject" id="website">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="input-field">
+                                        <label for="message">Write Message</label>
+                                        <textarea id="message" placeholder="Write Message...."></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="text-center">
+                                        <button class="template-btn">Send Us Message <i class="far fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== Contact Form End ======-->
 <?php unset($_SESSION['contact']); ?>
 <?php include($red_page."common/footer.php");?>
