@@ -12,8 +12,7 @@
 <!doctype html>
 <html dir="ltr" lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?php echo $site_name; ?> - Medical and Dental HTML Template || Home Five</title>
 
@@ -30,7 +29,6 @@
     <!--====== Font Awesome ======-->
 	<script src="https://kit.fontawesome.com/e5ffb25b8f.js" crossorigin="anonymous"></script>
     <!--====== Flaticon ======-->
-    <link rel="stylesheet" href="<?php echo $site_url; ?>assets/fonts/flaticon/css/flaticon.css" />
     <!--====== Main Css ======-->
     <link rel="stylesheet" href="<?php echo $site_url; ?>assets/css/style.css" />
 
