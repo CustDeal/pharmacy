@@ -28,7 +28,7 @@
     <!--====== Magnific Popup ======-->
     <link rel="stylesheet" href="<?php echo $site_url; ?>assets/css/magnific-popup.min.css" />
     <!--====== Font Awesome ======-->
-    <link rel="stylesheet" href="<?php echo $site_url; ?>assets/fonts/fontawesome/css/all.min.css" />
+	<script src="https://kit.fontawesome.com/e5ffb25b8f.js" crossorigin="anonymous"></script>
     <!--====== Flaticon ======-->
     <link rel="stylesheet" href="<?php echo $site_url; ?>assets/fonts/flaticon/css/flaticon.css" />
     <!--====== Main Css ======-->
@@ -45,6 +45,13 @@
 </head>
 <body>
 
+    <!--====== Start Preloader ======-->
+    <div id="preloader">
+        <div id="loading-center">
+            <div id="object"></div>
+        </div>
+    </div>
+    <!--====== End Preloader ======-->
 
     <!--====== Start Template Header ======-->
     <header class="template-header sticky-header header-two">
