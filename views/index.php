@@ -150,7 +150,7 @@
                             </p>
                             <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="far fa-plus"></i></a>
                             <div class="box-icon">
-                                <i class="flaticon-virus"></i>
+                                <i class="fas fa-shield-virus"></i>
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                             </p>
                             <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="far fa-plus"></i></a>
                             <div class="box-icon">
-                                <i class="flaticon-virus"></i>
+                               <i class="fas fa-shield-virus"></i>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
                             </p>
                             <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="far fa-plus"></i></a>
                             <div class="box-icon">
-                                <i class="flaticon-virus"></i>
+                                <i class="fas fa-shield-virus"></i>
                             </div>
                         </div>
                     </div>
@@ -201,7 +201,7 @@
                             </p>
                             <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="far fa-plus"></i></a>
                             <div class="box-icon">
-                                <i class="flaticon-virus"></i>
+                                <i class="fas fa-shield-virus"></i>
                             </div>
                         </div>
                     </div>
@@ -218,7 +218,7 @@
                             </p>
                             <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="far fa-plus"></i></a>
                             <div class="box-icon">
-                                <i class="flaticon-virus"></i>
+                                <i class="fas fa-shield-virus"></i>
                             </div>
                         </div>
                     </div>

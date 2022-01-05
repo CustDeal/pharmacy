@@ -9,12 +9,14 @@
 
 ------>
 
-<!doctype html>
-<html dir="ltr" lang="en-US">
+<!DOCTYPE html>
+<html lang="zxx">
 <head>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><?php echo $site_name; ?> - Medical and Dental HTML Template || Home Five</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 
     <!--====== Animate Css ======-->
     <link rel="stylesheet" href="<?php echo $site_url; ?>assets/css/animate.min.css" />
@@ -32,7 +34,6 @@
     <!--====== Main Css ======-->
     <link rel="stylesheet" href="<?php echo $site_url; ?>assets/css/style.css" />
 
-
 <meta name="author" content="CustDeal EServices ( https://www.custdeal.com/)" />
 <meta name="description" content="<?php echo $site_description; ?>" />
 <meta name="keywords" content="<?php echo $site_keyword; ?>" />
@@ -43,7 +44,13 @@
 </head>
 <body>
 
-
+    <!--====== Start Preloader ======>
+    <div id="preloader">
+        <div id="loading-center">
+            <div id="object"></div>
+        </div>
+    </div>
+    <!--====== End Preloader ======-->
 
     <!--====== Start Template Header ======-->
     <header class="template-header sticky-header header-two">
@@ -60,7 +67,7 @@
                                 <a href="mailto:<?php echo $contact_email; ?>"><i class="far fa-envelope"></i> Email : <?php echo $contact_email; ?></a>
                             </li>
                             <li>
-                                <a href="tel:<?php echo $contact_phone; ?>"><i class="far fa-phone"></i> Call US : <?php echo $contact_phone; ?></a>
+                                <a href="tel:<?php echo $contact_phone; ?>"><i class="fas fa-phone-alt"></i> Call US : <?php echo $contact_phone; ?></a>
                             </li>
                             <li>
                                 <div class="social-icons">
@@ -97,7 +104,7 @@
                     <ul class="extra-icons">
                         <li class="d-none d-sm-block">
                             <div class="header-search-area">
-
+							<div id="google_translate_element"></div>
                             </div>
                         </li>
                         <li class="d-none d-xl-block">
@@ -134,7 +141,7 @@
                     <h5 class="canvas-widget-title">Contact Us</h5>
                     <ul>
                         <li>
-                            <i class="far fa-map-marker-alt"></i>
+                            <i class="fas fa-map-marker-alt"></i>
                             <?php echo $contact_address; ?>
                         </li>
                         <li>
@@ -142,13 +149,13 @@
                             <a href="mailto:<?php echo $contact_email; ?>">Email : <?php echo $contact_email; ?></a>
                         </li>
                         <li>
-                            <i class="far fa-phone"></i>
+                            <i class="fas fa-phone-alt"></i>
 							<a href="tel:<?php echo $contact_phone; ?>">Call US : <?php echo $contact_phone; ?></a>
                         </li>
                     </ul>
                 </div>
                 <a href="#" class="panel-close">
-                    <i class="fal fa-times"></i>
+                    <i class="far fa-times-circle"></i>
                 </a>
             </div>
         </div>
@@ -168,11 +175,11 @@
                         <li><a href="<?php echo $site_url; ?>service">Service One</a></li>
                         <li><a href="<?php echo $site_url; ?>contact">Contact</a></li>
                         <li><a href="<?php echo $site_url; ?>#appointment" class="btn btn-primary text-white" >Book Appointment</a></li>
-
+                        <li><div id="google_translate_element"></div></li>
                     </ul>
                 </nav>
                 <a href="#" class="panel-close">
-                    <i class="fal fa-times"></i>
+                    <i class="far fa-times-circle"></i>
                 </a>
             </div>
         </div>
@@ -180,3 +187,10 @@
     </header>
     <!--====== End Template Header ======-->
 	
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

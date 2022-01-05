@@ -10,7 +10,7 @@
 ------>
     <!--====== Back to Top Start ======-->
     <a class="back-to-top" href="javascript:void(0);">
-        <i class="far fa-angle-up"></i>
+        <i class="fas fa-arrow-up"></i>
      </a>
     <!--====== Back to Top End ======-->
 
@@ -22,19 +22,19 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="cta-boxed-two bg-color-secondary bg-size-cover blend-mode-multiply mb-30" style="background-image: url(<?php echo $site_url; ?>assets/img/cta-img/cta-boxed-2-1.jpg);">
                             <h2 class="cta-title">Looking Medicines for Treatment</h2>
-                            <a href="<?php echo $site_url; ?>contact" class="template-btn template-btn-bordered">Contact Us <i class="far fa-plus"></i></a>
+                            <a href="<?php echo $site_url; ?>contact" class="template-btn template-btn-bordered">Contact Us <i class="fas fa-plus-square"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="cta-boxed-two bg-color-secondary bg-size-cover blend-mode-multiply mb-30" style="background-image: url(<?php echo $site_url; ?>assets/img/cta-img/cta-boxed-2-2.jpg);">
                             <h2 class="cta-title">Make Appointment  Online (24/7)</h2>
-                            <a href="<?php echo $site_url; ?>#appointment" class="template-btn template-btn-bordered">Appointment <i class="far fa-plus"></i></a>
+                            <a href="<?php echo $site_url; ?>#appointment" class="template-btn template-btn-bordered">Appointment <i class="fas fa-plus-square"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-8">
                         <div class="cta-boxed-two bg-color-secondary bg-size-cover blend-mode-multiply mb-30" style="background-image: url(<?php echo $site_url; ?>assets/img/cta-img/cta-boxed-2-3.jpg);">
                             <h2 class="cta-title">Looking a Doctors for Consultation</h2>
-                            <a href="<?php echo $site_url; ?>contact/#compose" class="template-btn template-btn-bordered">Send us Message <i class="far fa-plus"></i></a>
+                            <a href="<?php echo $site_url; ?>contact/#compose" class="template-btn template-btn-bordered">Send us Message <i class="fas fa-plus-square"></i></a>
                         </div>
                     </div>
                 </div>
@@ -54,13 +54,13 @@
                                 </p>
                                 <ul class="contact-list">
                                     <li>
-                                        <a href="<?php echo $contact_map; ?>"><i class="far fa-map-marker-alt"></i><?php echo $contact_address; ?></a>
+                                        <a href="<?php echo $contact_map; ?>"><i class="fas fa-map-marker-alt"></i><?php echo $contact_address; ?></a>
                                     </li>
                                     <li>
                                         <a href="mailto:<?php echo $contact_email; ?>"><i class="far fa-envelope"></i><?php echo $contact_email; ?></a>
                                     </li>
                                     <li>
-										<a href="tel:<?php echo $contact_phone; ?>"><i class="far fa-phone"></i><?php echo $contact_phone; ?></a>
+										<a href="tel:<?php echo $contact_phone; ?>"><i class="fas fa-phone-alt"></i><?php echo $contact_phone; ?></a>
                                     </li>
                                 </ul>
                             </div>
