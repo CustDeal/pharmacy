@@ -45,13 +45,6 @@
 </head>
 <body>
 
-    <!--====== Start Preloader ======-->
-    <div id="preloader">
-        <div id="loading-center">
-            <div id="object"></div>
-        </div>
-    </div>
-    <!--====== End Preloader ======-->
 
     <!--====== Start Template Header ======-->
     <header class="template-header sticky-header header-two">
@@ -105,12 +98,7 @@
                     <ul class="extra-icons">
                         <li class="d-none d-sm-block">
                             <div class="header-search-area">
-                                <div id="google_translate_element"></div>
-								<script type="text/javascript">
-								function googleTranslateElementInit() {
-								  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-								}
-								</script>
+
                             </div>
                         </li>
                         <li class="d-none d-xl-block">
@@ -181,13 +169,7 @@
                         <li><a href="<?php echo $site_url; ?>service">Service One</a></li>
                         <li><a href="<?php echo $site_url; ?>contact">Contact</a></li>
                         <li><a href="<?php echo $site_url; ?>#appointment" class="btn btn-primary text-white" >Book Appointment</a></li>
-						<li><div id="google_translate_element"></div>
-								<script type="text/javascript">
-								function googleTranslateElementInit() {
-								  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-								}
-								</script>
-						</li>
+
                     </ul>
                 </nav>
                 <a href="#" class="panel-close">
@@ -199,4 +181,3 @@
     </header>
     <!--====== End Template Header ======-->
 	
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
