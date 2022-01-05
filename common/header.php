@@ -45,13 +45,7 @@
 </head>
 <body>
 
-    <!--====== Start Preloader ======-->
-    <div id="preloader">
-        <div id="loading-center">
-            <div id="object"></div>
-        </div>
-    </div>
-    <!--====== End Preloader ======-->
+
 
     <!--====== Start Template Header ======-->
     <header class="template-header sticky-header header-two">
