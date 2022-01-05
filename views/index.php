@@ -21,7 +21,7 @@
                     <div class="slider-content-box" data-animation="fadeInUp" data-delay="0.4s">
                         <h1 class="title" data-animation="fadeInDown" data-delay="0.7s">We Care Medical &  Health </h1>
                         <p data-animation="fadeInLeft" data-delay="0.8s">It is our mission to exceed expectations by providing exceptional medical care to our patients and at the same time, building relationships of trust with them.</p>
-                        <a href="#" class="template-btn" data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="far fa-plus"></i></a>
+                        <a href="#" class="template-btn" data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="fas fa-plus"></i></a>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                     <div class="slider-content-box" data-animation="fadeInUp" data-delay="0.4s">
                         <h1 class="title" data-animation="fadeInDown" data-delay="0.7s">We Care Medical &  Health </h1>
                         <p data-animation="fadeInLeft" data-delay="0.8s">It is our mission to exceed expectations by providing exceptional medical care to our patients and at the same time, building relationships of trust with them.</p>
-                        <a href="#" class="template-btn" data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="far fa-plus"></i></a>
+                        <a href="#" class="template-btn" data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="fas fa-plus"></i></a>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                     <div class="slider-content-box" data-animation="fadeInUp" data-delay="0.4s">
                         <h1 class="title" data-animation="fadeInDown" data-delay="0.7s">We Care Medical &  Health </h1>
                         <p data-animation="fadeInLeft" data-delay="0.8s">It is our mission to exceed expectations by providing exceptional medical care to our patients and at the same time, building relationships of trust with them.</p>
-                        <a href="#" class="template-btn" data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="far fa-plus"></i></a>
+                        <a href="#" class="template-btn" data-animation="fadeInUp" data-delay="0.9s">Make an Appointment <i class="fas fa-plus"></i></a>
                     </div>
                 </div>
             </div>
@@ -115,8 +115,8 @@
                 </div>
                 <div class="col-lg-7">
                     <ul class="cta-buttons d-sm-flex justify-content-lg-end mt-md-40 flex-wrap">
-                        <li class="mb-3 mb-sm-0"><a href="#" class="template-btn template-btn-white wow fadeInRight" data-wow-delay="0.4s">Get Free Quote <i class="far fa-plus"></i></a></li>
-                        <li class="ml-sm-2"><a href="#appointment" class="template-btn template-btn-bordered wow fadeInRight" data-wow-delay="0.5s">Get appointment <i class="far fa-plus"></i></a></li>
+                        <li class="mb-3 mb-sm-0"><a href="#" class="template-btn template-btn-white wow fadeInRight" data-wow-delay="0.4s">Get Free Quote <i class="fas fa-plus"></i></a></li>
+                        <li class="ml-sm-2"><a href="#appointment" class="template-btn template-btn-bordered wow fadeInRight" data-wow-delay="0.5s">Get appointment <i class="fas fa-plus"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -148,7 +148,7 @@
                             <p>
                                 The diagnosis and treatment of such conditions as congenital heart defects, coronary artery disease, electrophysiology, heart failure and valvular heart disease.
                             </p>
-                            <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="far fa-plus"></i></a>
+                            <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="fas fa-plus"></i></a>
                             <div class="box-icon">
                                 <i class="fas fa-shield-virus"></i>
                             </div>
@@ -165,7 +165,7 @@
                             <p>
                                 The diagnosis and treatment of Pulmonary hypertension which affects arteries in the lungs and the right side of the heart.
                             </p>
-                            <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="far fa-plus"></i></a>
+                            <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="fas fa-plus"></i></a>
                             <div class="box-icon">
                                <i class="fas fa-shield-virus"></i>
                             </div>
@@ -182,7 +182,7 @@
                             <p>
                                 Deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue, such as muscle.
                             </p>
-                            <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="far fa-plus"></i></a>
+                            <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="fas fa-plus"></i></a>
                             <div class="box-icon">
                                 <i class="fas fa-shield-virus"></i>
                             </div>
@@ -199,7 +199,7 @@
                             <p>
                                 The diagnosis and treatment of Coronavirus disease (COVID-19), is an infectious disease caused by the SARS-CoV-2 virus.
                             </p>
-                            <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="far fa-plus"></i></a>
+                            <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="fas fa-plus"></i></a>
                             <div class="box-icon">
                                 <i class="fas fa-shield-virus"></i>
                             </div>
@@ -216,7 +216,7 @@
                             <p>
                                 Surgical and nonsurgical means to treat musculoskeletal trauma, spine diseases, sports injuries, degenerative diseases, infections, tumors, and congenital disorders
                             </p>
-                            <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="far fa-plus"></i></a>
+                            <a href="<?php echo $site_url; ?>service" class="box-btn">All <i class="fas fa-plus"></i></a>
                             <div class="box-icon">
                                 <i class="fas fa-shield-virus"></i>
                             </div>
@@ -228,7 +228,7 @@
     </section>
     <!--====== Service Section End ======-->
 
-    <!--====== Counter Section Start ======-->
+    <!--====== Counter Section Start ======>
     <section class="counter-section">
         <div class="container">
             <div class="counter-inner-two mb-negative">
@@ -315,7 +315,7 @@
                                     Supports referrals to provider networks and care  management pr
                                 </li>
                             </ul>
-                            <a href="#appointment" class="template-btn template-btn-bordered mt-40 wow fadeInUp" data-wow-delay="0.5s">Get Appointment <i class="far fa-plus"></i></a>
+                            <a href="#appointment" class="template-btn template-btn-bordered mt-40 wow fadeInUp" data-wow-delay="0.5s">Get Appointment <i class="fas fa-plus"></i></a>
                         </div>
                     </div>
                 </div>
@@ -366,7 +366,7 @@
                             <div class="col-md-6">
                                 <div class="input-field wow fadeInRight" data-wow-delay="0.8s">
                                     <button type="submit" class="template-btn">
-                                        Make an Appointment <i class="far fa-plus"></i>
+                                        Make an Appointment <i class="fas fa-plus"></i>
                                     </button>
                                 </div>
                             </div>
